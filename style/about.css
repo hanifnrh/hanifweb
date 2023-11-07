@@ -1,0 +1,505 @@
+body {
+    background-image: url(/img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* PAGE 1 */
+
+.page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.page1-wrapper-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(/img/rectangleabout.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80vw;
+    height: 70vh;
+    gap: 3rem;
+}
+
+.page1-wrapper-content p {
+    color: white;
+}
+
+.page1-wrapper h1 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.page1-wrapper-content>.row {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: flex-end;
+    height: auto;
+
+}
+
+.page1-wrapper-content>.row img {
+    width: 300px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.page1-wrapper-content>.row img:hover {
+    width: 350px;
+    height: auto;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.page1-wrapper-content>.right {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.page1-wrapper-content>.right p {
+    font-size: 1.4rem;
+    color: #FFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.page1-wrapper-content>.left {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+/* PAGE 2 */
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.page2-wrapper h1 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.page2-wrapper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    gap: 4rem;
+}
+
+.page2-wrapper-content>.row {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.page2-wrapper-content>.row img {
+    width: 300px;
+    height: auto;
+    transition: all 0.5s;
+}
+
+.page2-wrapper-content>.row img:hover {
+    width: 350px;
+    height: auto;
+}
+
+/* PAGE 3 */
+
+.page3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.page3-wrapper hr {
+    background-color: white;
+    height: 1px;
+    width: 60vw;
+    opacity: 1;
+}
+
+.page3-wrapper h1 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.page3-wrapper-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 60vw;
+    gap: 4rem;
+}
+
+.page3-wrapper-content>.left {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.page3-wrapper-content>.right h2 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page3-wrapper-content>.right p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+/* RESPONSIVE 2560 */
+
+@media screen and (min-width: 2000px){
+    .left img{
+        width: 40rem;
+    }
+
+    .page1-wrapper h1 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .page1-wrapper-content>.right p {
+        font-size: 2.3rem;
+        color: #FFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .page2-wrapper h1 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .page2-wrapper-content>.row img {
+        width: 500px;
+        height: auto;
+        transition: all 0.5s;
+    }
+
+    .page3-wrapper h1 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .page3-wrapper hr {
+        background-color: white;
+        height: 0.3rem;
+        width: 60vw;
+        opacity: 1;
+    }
+
+    .page3-wrapper-content>.left {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .page3-wrapper-content>.right h2 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .page3-wrapper-content>.right p {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 3.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        opacity: 0.7;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 426px) {
+    .page1-wrapper h1 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .page1-wrapper-content>.right p {
+        font-size: 1.2rem;
+        color: #FFF;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .page1-wrapper-content>.right {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .page1-wrapper-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: none;
+        width: 80vw;
+        height: 70vh;
+        gap: 3rem;
+
+    }
+
+    .page1-wrapper-content>.left {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left img {
+        width: 80%;
+    }
+
+    .spacer5 {
+        height: 2rem !important;
+    }
+    .page2-wrapper h1 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .page2-wrapper-content>.row {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        justify-content: cn;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page3-wrapper h1 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .page3-wrapper-content>.left {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .page3-wrapper-content>.right h2 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .page3-wrapper-content>.right p {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        opacity: 0.7;
+        text-align: center;
+    }
+
+    .page3-wrapper-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+        gap: 4rem;
+    }
+    
+    .page3-wrapper hr {
+        background-color: white;
+        height: 1px;
+        width: 80vw;
+        opacity: 1;
+    }
+    
+}
+
+/* RESPONSIVE 1024 */
+
+@media screen and (max-width: 1025px) {
+    .page1-wrapper-content>.right {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .left img{
+        width: 80%;
+    }
+    
+    .page1-wrapper-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-image: url(/img/rectangleabout.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 80vw;
+        height: 70vh;
+        gap: 2rem;
+    }
+    .page1-wrapper-content>.left {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page1-wrapper-content>.right {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 70%;
+    }
+
+    .page2-wrapper h1 {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+    .page2-wrapper-content>.row img {
+        width: 200px;
+        height: auto;
+        transition: all 0.5s;
+    }
+
+    .page2-wrapper-content>.row img:hover {
+        width: 240px;
+        height: auto;
+        transition: all 0.5s;
+    }
+}

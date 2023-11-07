@@ -1,0 +1,464 @@
+.button1 {
+    border-radius: 30px;
+    background: linear-gradient(267deg, #F59A03 -14.05%, #8C9D5D 48.64%, #964AD2 103.59%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2E2419;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+}
+
+.buttonpinterest {
+
+    border-radius: 30px;
+    background: linear-gradient(267deg, #D40303 -14.05%, #D55249 34.25%, #743BA1 103.59%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2E2419;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.buttonbehance {
+
+    border-radius: 30px;
+    background: linear-gradient(267deg, #0364F5 -14.05%, #5D9D8A 48.64%, #D2834A 103.59%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2E2419;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.buttoninstagram {
+
+    border-radius: 30px;
+    background: linear-gradient(267deg, #4C5FCB -14.05%, #F34E56 48.64%, #FFCE53 103.59%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2E2419;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.buttondeviantart {
+    border-radius: 30px;
+    background: linear-gradient(267deg, #00E59B -14.05%, #8C9D5D 48.64%, #6F5E7D 103.59%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 320px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2E2419;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.buttonpixiv {
+    border-radius: 30px;
+    background: linear-gradient(267deg, #0096DB -14.05%, #B7BDE0 48.64%, #4AB2D2 103.59%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2E2419;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.buttonartofziel {
+    border-radius: 30px;
+    background: linear-gradient(267deg, #82C4F6 -14.05%, #27587D 103.59%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.buttongudeg {
+    border-radius: 30px;
+    background: linear-gradient(265deg, #2C8543 -5.79%, #237A6A 79.68%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.buttonjiwakita {
+    border-radius: 30px;
+    background: linear-gradient(264deg, #7CC8D4 -3%, #298495 82.94%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 309px;
+    height: 85px;
+    padding: 19px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+
+
+.button1:hover, .buttonbehance:hover, .buttondeviantart:hover, .buttoninstagram:hover, .buttonpinterest:hover, .buttonpixiv:hover, .buttonartofziel:hover, .buttongudeg:hover, .buttonjiwakita:hover {
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: black;
+}
+
+.button1:focus, .buttonbehance:focus, .buttondeviantart:focus, .buttoninstagram:focus, .buttonpinterest:focus, .buttonpixiv:focus, .buttonartofziel:hover, .buttongudeg:hover, .buttonjiwakita:hover {
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: black;
+}
+
+
+/* BUTTON TO TOP */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 4;
+    border-radius: 54.015px;
+    background: linear-gradient(247deg, rgba(255, 255, 255, 0.20) -97.92%, rgba(255, 255, 255, 0.00) 109.64%);
+    backdrop-filter: blur(40.51150894165039px);
+    border: none;
+}
+
+
+/* RESPONSIVE */
+/* 2560 */
+@media screen and (min-width: 2000px) {
+    .button1 {
+        border-radius: 80px;
+        background: linear-gradient(267deg, #F59A03 -14.05%, #8C9D5D 48.64%, #964AD2 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 600px;
+        height: 180px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+    }
+
+    .buttonpinterest {
+        border-radius: 70px;
+        background: linear-gradient(267deg, #D40303 -14.05%, #D55249 34.25%, #743BA1 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 140px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttonbehance {
+        border-radius: 70px;
+        background: linear-gradient(267deg, #0364F5 -14.05%, #5D9D8A 48.64%, #D2834A 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 139px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttoninstagram {
+        border-radius: 70px;
+        background: linear-gradient(267deg, #4C5FCB -14.05%, #F34E56 48.64%, #FFCE53 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 139px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttondeviantart {
+        border-radius: 70px;
+        background: linear-gradient(267deg, #00E59B -14.05%, #8C9D5D 48.64%, #6F5E7D 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 139px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttonpixiv {
+        border-radius: 70px;
+        background: linear-gradient(267deg, #0096DB -14.05%, #B7BDE0 48.64%, #4AB2D2 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 139px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttonartofziel {
+        border-radius: 70px;
+        background: linear-gradient(267deg, #82C4F6 -14.05%, #27587D 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 139px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttongudeg {
+        border-radius: 70px;
+        background: linear-gradient(265deg, #2C8543 -5.79%, #237A6A 79.68%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 139px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttonjiwakita {
+        border-radius: 70px;
+        background: linear-gradient(264deg, #7CC8D4 -3%, #298495 82.94%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 500px;
+        height: 139px;
+        padding: 19px 56px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .button1 {
+        border-radius: 60px;
+        background: linear-gradient(267deg, #F59A03 -14.05%, #8C9D5D 48.64%, #964AD2 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 300px;
+        padding: 10px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+    }
+
+    .button1:hover {
+        border-radius: 60px;
+        background: white;
+        box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        color: black;
+    }
+}

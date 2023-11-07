@@ -1,0 +1,210 @@
+body {
+    background-image: url(/img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page1-wrapper h1 {
+    color: white;
+    font-family: raleway;
+    font-weight: 800;
+}
+
+.page1-wrapper-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1-wrapper-content > .row{
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
+    width: 70%;
+}
+
+.page1-wrapper-content > .row1{
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
+    width: 70%;
+    gap: 2rem;
+}
+
+.page1-wrapper-content > .row img{
+    width: 300px;
+    height: auto;
+    transition: all 0.5s;
+}
+
+.page1-wrapper-content > .row img:hover{
+    width: 350px;
+    height: auto;
+}
+
+.page1-wrapper-content > .row1 img{
+    width: 300px;
+    height: auto;
+    transition: all 0.5s;
+}
+
+.page1-wrapper-content > .row1 img:hover{
+    width: 350px;
+    height: auto;
+}
+
+.page1-wrapper-content > .row p{
+    width: 60%;
+    height: auto;
+    font-size: 1.5rem;
+}
+
+
+.page1-wrapper-content > .row1 p{
+    width: 60%;
+    height: auto;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+/* RESPONSIVE 2560 */
+@media screen and (min-width: 2000px) {
+    .page1-wrapper-content {
+        display: flex;
+        width: 80%;
+    }
+
+    .page1-wrapper-content > .row1 p {
+        width: 60%;
+        height: auto;
+        font-size: 2.4rem;
+        text-align: right;
+    }
+
+    .page1-wrapper-content > .row p {
+        width: 60%;
+        height: auto;
+        font-size: 2.4rem;
+        text-align: right;
+    }
+
+    .page1-wrapper-content > .row1 img {
+        width: 500px;
+        height: auto;
+        transition: all 0.5s;
+    }
+
+    .page1-wrapper-content > .row img {
+        width: 500px;
+        height: auto;
+        transition: all 0.5s;
+    }
+
+    .page1-wrapper h1 {
+        color: white;
+        font-family: raleway;
+        font-weight: 800;
+        font-size: 4rem;
+    }
+}
+
+/* RESPONSIVE HANDPHONE */
+@media screen and (max-width:426px) {
+
+    .page1-wrapper-content > .row{
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+    .page1-wrapper-content > .row1 {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .page1-wrapper-content > .row1 p {
+        width: 80%;
+        height: auto;
+        font-size: 1.2rem;
+        text-align: center;
+        order: 2;
+    }
+
+
+    .page1-wrapper-content > .row p {
+        width: 80%;
+        height: auto;
+        font-size: 1.2rem;
+        text-align: center;
+        order: 2;
+    }
+
+    .left img{
+        width: 80%;
+    }
+
+    .page1-wrapper-content>.right {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+
+}
+
+/* RESPONSIVE 1024 */
+
+@media screen and (max-width: 1025px) {
+    .page1-wrapper-content > .row {
+        display: flex;
+        color: white;
+        align-items: flex-end;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .page1-wrapper-content > .row img:hover {
+        width: 300px;
+        height: auto;
+    }
+
+    .page1-wrapper-content > .row1 img:hover {
+        width: 300px;
+        height: auto;
+    }
+    .page1-wrapper-content > .row1 {
+        display: flex;
+        color: white;
+        align-items: flex-end;
+        justify-content: center;
+        width: 80%;
+        gap: 2rem;
+    }
+    
+}
