@@ -223,10 +223,18 @@ body {
 
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 426px) {
-
-    .spacer5 {
-        height: 10rem !important;
+    .page1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 320vh;
     }
+    .page1-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 320vh;
+    }
+
     .page1-wrapper h1 {
         color: #FFF;
         font-family: Raleway;

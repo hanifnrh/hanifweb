@@ -311,7 +311,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 160vh;
+        height: 110vh;
     }
     .page1-wrapper h1 {
         color: #FFF;
@@ -348,7 +348,7 @@ body {
         flex-direction: column;
         background: none;
         width: 80vw;
-        height: 100vh;
+        height: 70vh;
         gap: 3rem;
 
     }
