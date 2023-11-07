@@ -180,7 +180,7 @@ body {
 
 /* RESPONSIVE 1024 */
 
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 700px) {
     .page1-wrapper-content > .row {
         display: flex;
         color: white;

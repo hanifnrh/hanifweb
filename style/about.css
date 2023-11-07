@@ -307,6 +307,12 @@ body {
 
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 426px) {
+    .page1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 160vh;
+    }
     .page1-wrapper h1 {
         color: #FFF;
         font-family: Raleway;
@@ -342,7 +348,7 @@ body {
         flex-direction: column;
         background: none;
         width: 80vw;
-        height: 70vh;
+        height: 100vh;
         gap: 3rem;
 
     }
@@ -439,7 +445,7 @@ body {
 
 /* RESPONSIVE 1024 */
 
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 700px) {
     .page1-wrapper-content>.right {
         text-align: left;
         display: flex;

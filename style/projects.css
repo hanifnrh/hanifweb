@@ -223,6 +223,10 @@ body {
 
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 426px) {
+
+    .spacer5 {
+        height: 10rem !important;
+    }
     .page1-wrapper h1 {
         color: #FFF;
         font-family: Raleway;
@@ -303,7 +307,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1025px){
+@media screen and (min-width: 700px){
     .left img {
         width: 400px;
     }
