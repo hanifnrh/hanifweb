@@ -10,13 +10,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400vh;
+    height: fit-content;
+    padding: 3%;
 }
 
 .page1-wrapper {
     display: flex;
     flex-direction: column;
-    height: 400vh;
+    height: fit-content;
 }
 
 .page1-wrapper-content {
@@ -115,6 +116,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: fit-content;
+    padding: 10%;
 }
 
 .page2-wrapper {
@@ -227,12 +230,13 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 320vh;
+        height: fit-content;
     }
     .page1-wrapper {
         display: flex;
         flex-direction: column;
-        height: 320vh;
+        height: fit-content;
+        gap: 5rem;
     }
 
     .page1-wrapper h1 {
@@ -251,8 +255,15 @@ body {
         align-items: center;
         flex-direction: column;
         width: 80vw;
-        height: 50vh;
+        height: fit-content;
         gap: 1rem;
+    }
+
+    .page2 {
+        padding: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .page2-wrapper h1 {
@@ -333,4 +344,5 @@ body {
     .page2-wrapper-content > .column img{
         width: 90%;
     }
+
 }

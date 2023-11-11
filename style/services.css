@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;
 }
 
 .page1-wrapper {
@@ -127,6 +128,25 @@ body {
 /* RESPONSIVE HANDPHONE */
 @media screen and (max-width:426px) {
 
+    .page1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 30% 10%;
+    }
+
+    .page1-wrapper-content > .row img {
+        width: 220px;
+        height: auto;
+        transition: all 0.5s;
+    }
+    .page1-wrapper-content > .row1 img {
+        width: 220px;
+        height: auto;
+        transition: all 0.5s;
+    }
+
     .page1-wrapper-content > .row{
         display: flex;
         color: white;
@@ -149,7 +169,7 @@ body {
     .page1-wrapper-content > .row1 p {
         width: 80%;
         height: auto;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
         order: 2;
     }
@@ -158,7 +178,7 @@ body {
     .page1-wrapper-content > .row p {
         width: 80%;
         height: auto;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
         order: 2;
     }
@@ -173,6 +193,15 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+    .page1-wrapper-content > .row1 img:hover {
+        width: 240px;
+        height: auto;
+    }
+
+    .page1-wrapper-content > .row img:hover {
+        width: 240px;
+        height: auto;
     }
 
 

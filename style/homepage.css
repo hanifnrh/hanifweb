@@ -8,8 +8,8 @@ body {
 
 .page1 {
     height: 100vh;
+    padding: 3%;
 }
-
 .page1-wrapper {
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 .page1-wrapper-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 70%;
+    width: 80%;
 }
 
 .page1-wrapper-content>.left {
@@ -63,9 +63,10 @@ body {
 
 .page2-wrapper-content {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    height: 700px;
 }
 
 .page2-wrapper h1 {
@@ -76,6 +77,7 @@ body {
     font-weight: 800;
     line-height: normal;
     text-align: center;
+    margin-top: 20%;
 }
 
 .page2-wrapper-content>.row {
@@ -112,6 +114,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;
 }
 
 .page3-wrapper {
@@ -284,12 +287,18 @@ input:-webkit-autofill:active {
 
     .right img {
         width: 100%;
+        max-width: 1440px;
     }
     
 }
 
 /* RESPONSIVE 1024 */
 @media screen and (max-width: 1024px) {
+
+    .page1 {
+        height: 100vh;
+        padding: 10% 3% 3% 3%;
+    }
     .left h1{
         font-weight: 700;
         font-size: 1.8rem;
@@ -342,10 +351,11 @@ input:-webkit-autofill:active {
 
 @media screen and (max-width: 426px) {
     .page1 {
-        height: 110vh;
+        height: fit-content;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 30%;
     }
 
     .page1-wrapper {
@@ -366,7 +376,16 @@ input:-webkit-autofill:active {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 120vh;
+        height: fit-content;
+        padding: 20%;
+    }
+
+    .page2-wrapper-content {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
     }
 
     .page2-wrapper-content>.row img {
@@ -382,6 +401,7 @@ input:-webkit-autofill:active {
         font-weight: 800;
         line-height: normal;
         text-align: center;
+        margin-top: 0;
     }
 
     .page1-wrapper-content>.left {
@@ -393,6 +413,12 @@ input:-webkit-autofill:active {
         width: 80vw;
         font-family: Montserrat;
         text-align: center;
+    }
+    .page3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20%;
     }
 
     .page3-wrapper h1 {
@@ -413,7 +439,6 @@ input:-webkit-autofill:active {
         grid-gap: 2rem;
         width: 80%;
     }
-
     .page2-wrapper h1 {
         color: #FFF;
         font-family: Raleway;
@@ -484,6 +509,6 @@ input:-webkit-autofill:active {
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-        text-align: right;
+        text-align: left;
     }
 }

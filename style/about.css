@@ -41,6 +41,12 @@ body {
     text-align: center;
 }
 
+.page1-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .page1-wrapper-content>.row {
     display: flex;
     flex-direction: row;
@@ -96,13 +102,13 @@ body {
 }
 
 /* PAGE 2 */
-
 .page2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: fit-content;
+    padding: 10%;
 }
-
 .page2-wrapper {
     display: flex;
     justify-content: center;
@@ -311,7 +317,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 110vh;
+        height: fit-content;
+        padding: 30%;
     }
     .page1-wrapper h1 {
         color: #FFF;
@@ -321,6 +328,7 @@ body {
         font-weight: 800;
         line-height: normal;
         text-align: center;
+        margin: 0;
     }
 
     .page1-wrapper-content>.right p {
@@ -348,9 +356,13 @@ body {
         flex-direction: column;
         background: none;
         width: 80vw;
-        height: 70vh;
-        gap: 3rem;
-
+        height: fit-content;
+        gap: 0;
+    }
+    .page1-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
     }
 
     .page1-wrapper-content>.left {
@@ -367,6 +379,20 @@ body {
     .spacer5 {
         height: 2rem !important;
     }
+
+    .page2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30%;
+    }
+
+    .page2-wrapper-content>.row img {
+        width: 220px;
+        height: auto;
+        transition: all 0.5s;
+    }
+
     .page2-wrapper h1 {
         color: #FFF;
         font-family: Raleway;
@@ -384,6 +410,13 @@ body {
         justify-content: cn;
         justify-content: center;
         align-items: center;
+    }
+
+    .page3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20%;
     }
 
     .page3-wrapper h1 {
@@ -458,7 +491,6 @@ body {
     .left img{
         width: 80%;
     }
-    
     .page1-wrapper-content {
         display: flex;
         justify-content: center;
@@ -471,6 +503,7 @@ body {
         width: 80vw;
         height: 70vh;
         gap: 2rem;
+        padding: 10%;
     }
     .page1-wrapper-content>.left {
         height: 70vh;

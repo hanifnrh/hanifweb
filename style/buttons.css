@@ -439,21 +439,21 @@
         background: linear-gradient(267deg, #F59A03 -14.05%, #8C9D5D 48.64%, #964AD2 103.59%);
         box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
         display: flex;
-        width: 300px;
+        width: 240px;
+        height: 70px;
         padding: 10px 40px;
         justify-content: center;
         align-items: center;
         gap: 10px;
         color: #2E2419;
         font-family: Montserrat;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         border: none;
         transition: all 0.7s;
     }
-
     .button1:hover {
         border-radius: 60px;
         background: white;
@@ -461,4 +461,94 @@
         text-decoration: none;
         color: black;
     }
+
+    .buttonbehance {
+        border-radius: 30px;
+        background: linear-gradient(267deg, #0364F5 -14.05%, #5D9D8A 48.64%, #D2834A 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 220px;
+        height: 70px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttoninstagram {
+        border-radius: 30px;
+        background: linear-gradient(267deg, #4C5FCB -14.05%, #F34E56 48.64%, #FFCE53 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 220px;
+        height: 70px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttondeviantart {
+        border-radius: 30px;
+        background: linear-gradient(267deg, #00E59B -14.05%, #8C9D5D 48.64%, #6F5E7D 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 220px;
+        height: 70px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+    .buttonpixiv {
+        border-radius: 30px;
+        background: linear-gradient(267deg, #0096DB -14.05%, #B7BDE0 48.64%, #4AB2D2 103.59%);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        width: 220px;
+        height: 70px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #2E2419;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        transition: all 0.7s;
+        text-decoration: none;
+    }
+
+
 }
