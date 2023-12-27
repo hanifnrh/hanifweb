@@ -152,6 +152,7 @@ button:focus:not(:focus-visible) {
 /* NAVBAR SCROLLED */
 .navbar-scrolled {
     background: linear-gradient(247deg, rgba(255, 255, 255, 0.20) -97.92%, rgba(255, 255, 255, 0.00) 109.64%);
+    -webkit-backdrop-filter: blur(40.51150894165039px);
     backdrop-filter: blur(40.51150894165039px);
 }
 
